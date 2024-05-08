@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amorim</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="src/imagens/logo-preta.jpg" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo-preta-completa.jpg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-marca">
+      <section class="marcas">
+        <h1 class="titulo">Selecione uma Marca</h1>
+        <ul class="lista-de-marcas">
+
+          <li class="marca selecionado" id="GUCCI" data-name="GUCCI" data-description="Gucci é uma casa de moda de luxo italiana com sede em Florença, Itália. Suas linhas de produtos incluem bolsas, roupas, calçados e acessórios, maquiagem, fragrâncias e decoração de casa.">
+            <a href="gucci.html">
+            <img
+              src="./src/imagens/GUCCI.png"
+              alt="Gucci"
+            />
+            </a>
+          </li>
+          
+          <li class="marca" id="Louis_Vuitton" data-name="Louis Vuitton" data-description="A Louis Vuitton é uma empresa especializada na produção de bolsas e malas de viagens, feitas em couro e lona, bem como na sua comercialização. Produz e vende também vestuário, sapatos, relógios, joias, acessórios, óculos de sol e livros.">
+            <a href="louis_vuitton.html">
+            <img
+              src="./src/imagens/Louis_Vuitton.jpg"
+              alt="Louis Vuitton"
+            />
+          </a>
+          </li>
+
+          <li class="marca" id="Prada" data-name="Prada" data-description="Prada é uma marca italiana de moda, considerada um símbolo de luxo e status. No início de sua história, a grife era especializada em malas de viagem, bolsas e artigos de couro.">
+            <a href="prada.html">
+            <img
+              src="./src/imagens/Prada.png"
+              alt="Prada"
+            />
+            </a>
+          </li>
+
+          <li class="marca" id="Burberry" data-name="Burberry" data-description="Burberry é uma casa de moda britânica, especializada em roupa, acessórios de luxo, perfume, óculos de sol e cosméticos. A sua imagem de marca é constituída por um padrão em quadrados (Tartan).">
+            <a href="burberry.html">
+            <img
+              src="./src/imagens/Burberry.jpg"
+              alt="Burberry"
+            />
+            </a>
+          </li>
+
+          <li class="marca" id="Balenciaga" data-name="Balenciaga" data-description="Balenciaga é uma casa de moda criada pelo estilista espanhol Cristóbal Balenciaga, considerado o arquiteto da alta costura pelo seu amplo conhecimento na confecção dos trajes e utilização de linhas puras contando ainda com o perfeccionismo, que era sua marca. Pertence ao Grupo Gucci desde 2001.">
+            <a href="balenciaga.html">
+            <img
+              src="./src/imagens/Balenciaga.jpg"
+              alt="Balenciaga"
+            />
+            </a>
+          </li>
+
+          <li class="marca" id="Versace" data-name="Versace" data-description="Versace é uma famosa marca italiana de moda de luxo fundada em 1978 por Gianni Versace. Após o assassinato de Gianni em 1997, a sua irmã, Donatella Versace, tornou-se a diretora artística da marca e o seu irmão, Santo Versace, tornou-se o presidente da marca.">
+            <a href="versace.html">
+            <img
+              src="./src/imagens/Versace.png"
+              alt="Versace"
+            />
+            </a>
+          </li>
+
+        </ul>
+      </section>
+      <section class="marca-selecionado">
+        <img
+          class="marca-grande"
+          src="./src/imagens/card-GUCCI.jpg"
+          alt="marca Selecionado"
+        />
+
+        <div class="informacoes-marca">
+          <h2 class="nome-marca" id="nome-marca">GUCCI</h2>
+          <p class="descricao-marca" id="descricao-marca">
+            Gucci é uma casa de moda de luxo italiana com sede em Florença, Itália. 
+            Suas linhas de produtos incluem bolsas, roupas, calçados e acessórios, maquiagem, fragrâncias e decoração de casa.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
