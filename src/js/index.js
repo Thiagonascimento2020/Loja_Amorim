@@ -1,42 +1,42 @@
-const personagens = document.querySelectorAll('.personagem');
+const marcas = document.querySelectorAll('.marca');
 
-personagens.forEach((personagem) => {
-    personagem.addEventListener('mouseenter', () => {
+marcas.forEach((marca) => {
+    marca.addEventListener('mouseenter', () => {
 
         if(window.innerWidth < 450) {
             window.scrollTo({top: 0, behavior: 'smooth'});
         }
 
-        removerSelecaoDoPersonagem();
+        removerSelecaoDoMarca();
 
-        personagem.classList.add('selecionado');
+        marca.classList.add('selecionado');
 
-        alterarImagemPersonagemSelecionado(personagem);
+        alterarImagemMarcaSelecionado(marca);
 
-        alterarNomePersonagemSelecionado(personagem);
+        alterarNomeMarcaSelecionado(marca);
 
-        alterarDescricaoPersonagem(personagem);
+        alterarDescricaoMarca(marca);
     })
 })
 
-function alterarDescricaoPersonagem(personagem) {
-    const descricaoPersonagem = document.getElementById('descricao-personagem');
-    descricaoPersonagem.innerText = personagem.getAttribute('data-description');
+function alterarDescricaoMarca(marca) {
+    const descricaomarca = document.getElementById('descricao-marca');
+    descricaomarca.innerText = marca.getAttribute('data-description');
 }
 
-function alterarNomePersonagemSelecionado(personagem) {
-    const nomePersonagem = document.getElementById('nome-personagem');
-    nomePersonagem.innerText = personagem.getAttribute('data-name');
+function alterarNomeMarcaSelecionado(marca) {
+    const nomemarca = document.getElementById('nome-marca');
+    nomemarca.innerText = marca.getAttribute('data-name');
 }
 
-function alterarImagemPersonagemSelecionado(personagem) {
-    const imagemPersonagemGrande = document.querySelector('.personagem-grande');
+function alterarImagemMarcaSelecionado(marca) {
+    const imagemmarcaGrande = document.querySelector('.marca-grande');
 
-    const idPersonagem = personagem.attributes.id.value;
-    imagemPersonagemGrande.src = `./src/imagens/card-${idPersonagem}.jpg`;
+    const idmarca = marca.attributes.id.value;
+    imagemmarcaGrande.src = `./src/imagens/card-${idmarca}.jpg`;
 }
 
-function removerSelecaoDoPersonagem() {
-    const personagemSelecionado = document.querySelector('.selecionado');
-    personagemSelecionado.classList.remove('selecionado');
+function removerSelecaoDoMarca() {
+    const marcaSelecionado = document.querySelector('.selecionado');
+    marcaSelecionado.classList.remove('selecionado');
 }
