@@ -12,6 +12,7 @@ header{
 nav{
     background-color: black;
     color:white;
+    text-align: center;
 }
 main{
     background-color: black;
@@ -54,8 +55,8 @@ button.botao{
     background-color: grey;
     color: white;
     border: none;
-    padding: 10px 25px;
-    margin: 5px;
+    padding: 5px 15px;
+    margin: 3px;
 }
 
 div.menu:hover button.botao{
