@@ -13,12 +13,13 @@ body {
     position: absolute;
     background: white;
     padding: 10px;
-    
+    text-align: center;
+    padding: 5%;
 }
 
 .container {
-    width: 380px;
-    height: 400px;
+    width: 300px;
+    height: 380px;
     position: -webkit-sticky;
     float: left;
     left: 50%;
@@ -34,41 +35,41 @@ body {
 }
 
 .container .product .image {
-    width: 300px;
+    width: 250px;
     height: 150px;
     margin: auto;
 }
 
 .image2 {
-    width: 300px;
+    width: 250px;
     height: 150px;
     margin: auto;
 
 }
 
 .image3 {
-    width: 300px;
+    width: 250px;
     height: 150px;
     margin: auto;
 
 }
 
 .image4 {
-    width: 300px;
+    width: 250px;
     height: 150px;
     margin: auto;
 
 }
 
 .image5 {
-    width: 300px;
+    width: 250px;
     height: 150px;
     margin: auto;
 
 }
 
 .image6 {
-    width: 300px;
+    width: 250px;
     height: 150px;
     margin: auto;
 
@@ -163,7 +164,7 @@ body {
 .container .product .color span {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 10px;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
@@ -172,7 +173,7 @@ body {
 .container .product .color2 span {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 10px;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
@@ -181,7 +182,7 @@ body {
 .container .product .color3 span {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 10px;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
@@ -190,7 +191,7 @@ body {
 .container .product .color4 span {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 10px;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
@@ -199,7 +200,7 @@ body {
 .container .product .color5 span {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 10px;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
@@ -208,7 +209,7 @@ body {
 .container .product .color6 span {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 10px;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
@@ -264,8 +265,8 @@ body {
 
 .container .product .color .active::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 3px solid #333;
     position: absolute;
@@ -275,8 +276,8 @@ body {
 
 .container .product .color2 .active::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 3px solid #333;
     position: absolute;
@@ -286,8 +287,8 @@ body {
 
 .container .product .color3 .active::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 3px solid #333;
     position: absolute;
@@ -297,8 +298,8 @@ body {
 
 .container .product .color4 .active::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 3px solid #333;
     position: absolute;
@@ -308,8 +309,8 @@ body {
 
 .container .product .color5 .active::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 3px solid #333;
     position: absolute;
@@ -319,8 +320,8 @@ body {
 
 .container .product .color6 .active::after {
     content: " ";
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 3px solid #333;
     position: absolute;
